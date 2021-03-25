@@ -1,0 +1,5 @@
+- `*`はprevious charに0 or more matching
+- `*`が次に来る場合は`*`の次までskip
+- recursive apprach
+  - time: O(n**2) worst case
+  - space: O(n**2)
